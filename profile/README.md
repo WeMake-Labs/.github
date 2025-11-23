@@ -6,100 +6,91 @@ Dieses Handbuch erklärt simpel, wie wir arbeiten. Es gehört zu den wichtigsten
 
 ---
 
-<details>
+## Unsere Tools & Arbeitsweise
 
-<summary>1. Warum existiert WeMake?</summary>
+**Wichtig vorweg:** Bei WeMake gibt es **keine einheitliche Toolpflicht**. Jedes Teammitglied entscheidet selbst, welche
+Tools ein Problem lösen und genutzt werden. Was wir brauchen: **Transparenz und Dokumentation von Entscheidungen** –
+nicht eine bestimmte Software.
 
-## Warum existiert WeMake?
+### Verfügbare Tools
 
-### Unsere Mission
+Wir stellen folgende Tools zur Verfügung:
 
-Wir lösen das Problem der kognitiven Überlastung in Organisationen. Die Systeme, die wir geschaffen haben, überfordern
-die menschlichen Fähigkeiten – WeMake baut Technologie, die für Menschen arbeitet, nicht umgekehrt.
+**Kommunikation & Produktivität:**
 
-Wir transformieren Organisationen durch verantwortungsvolle KI – so, dass Menschen mehr Wirkung entfalten, Arbeit
-sinnvoller wird und Unternehmen schneller lernen. Wir bauen keine weiteren Tools, sondern bessere Systeme. Wir sind
-German-first in Qualität, Ethik, Sicherheit und Sprache – offen gegenüber der Welt, aber mit präzisem Verständnis für
-den hiesigen Kontext.
+- **Google Workspace Business Plus** (Email, Calendar, Drive, Docs, Meet)
+- **Superhuman Mail Business** (für die, die Email-Produktivität maximieren wollen)
 
-#### Das Problem ist real
+**Development & Dokumentation:**
 
-Knowledge Workers verbringen 2,6 Stunden pro Tag nur mit E-Mails. Nach jeder Unterbrechung dauert es 23 Minuten, um
-wieder fokussiert zu arbeiten. 47% fühlen sich von Tool-Fragmentierung überwältigt.
+- **GitHub Enterprise** (Code, Issues, Discussions, Wiki, Actions, Projects)
 
-Wir leiden nicht an einem Mangel an Produktivitäts-Tools. Wir ertrinken in ihnen.
+**Infrastruktur & Security:**
 
-#### Traditionelle Lösungen scheitern
+- **Cloudflare Enterprise** (Performance, Security, Reliability)
+- **1Password Business** (Secrets, Passwörter, sensitive Daten)
 
-Projektmanagement-Software reduziert keine kognitive Last – sie verteilt sie um. E-Mail-Filter schaffen keine Klarheit –
-sie verschieben Entscheidungen. Mehr Meetings verbessern keine Abstimmung – sie verbrauchen die Zeit, die für Ausführung
-nötig ist.
+**Design & Website:**
 
-Wir nutzen moderne Infrastruktur, um Workflows der Industrieära aufrechtzuerhalten. Das ist kein Technologie-Problem. Es
-ist ein Design-Problem.
+- **Framer Pro** (Website, Prototyping, Design)
 
-#### Unsere Grundüberzeugung
+### Wie wir Entscheidungen treffen und dokumentieren
 
-- **Augmentation, nicht Automation**: Wir ersetzen keine menschliche Arbeit – wir verstärken menschliche Kapazität.
-  Technologie muss sich an die Art anpassen, wie Menschen arbeiten.
-- **Systeme über Tools**: Wir bauen das Betriebssystem für organisationale Intelligenz, nicht das nächste
-  Produktivitäts-Tool.
-- **Verantwortung ist operativ**: Sie ist eine tägliche Entscheidung, sichtbar in Code, Verträgen, Beratung und Support.
-- **Wirkung ist messbar**: Was ist nach 30, 90, 365 Tagen besser? Für Nutzer:innen, Teams, Kund:innen und die
-  Gesellschaft.
+**Kernprinzip:** Entscheidungen müssen transparent und für alle zugänglich sein – das "Wie" ist flexibel.
 
-#### Du kannst mehr als deine Rolle
+**Optionen für Entscheidungsdokumentation:**
 
-Unsere Grundannahme: Menschen sind zu mehr fähig, als typische Rollenbeschreibungen zulassen. Deshalb entwerfen wir
-Arbeit so, dass du Systeme baust, nicht nur Features:
+1. **GitHub Issues & Pull Requests** (für die, die damit arbeiten)
+   - Issues für Diskussionen und Entscheidungen
+   - PRs für konkrete Änderungsvorschläge
+   - GitHub Discussions für breitere Themen
 
-- Breite Ownership (Problem → Lösung → Betrieb → Lernen)
-- Zugriff auf die nötigen Werkzeuge und Infrastruktur
-- Coaching, Dokumentation und Feedback-Loops
-- Klare, öffentlich nachvollziehbare Entscheidungen (PRs, RFCs, ADRs)
-- Tools, die aus dem Weg gehen statt Arbeit zu verkomplizieren
+2. **Google Docs** (für Nicht-Technical-Members oder komplexere Entscheidungen)
+   - Shared Docs für RFCs (Request for Comments)
+   - Kommentarfunktion für Diskussion
+   - Link zum Doc wird in relevanten Channels geteilt
 
-### Unsere Strategie
+3. **Öffentliche Dokumentation** (für wichtige strategische Entscheidungen)
+   - Veröffentlichung als Markdown im GitHub Wiki
+   - Export als PDF auf Website
+   - Changelog-Updates
 
-#### 1. Das Problem wirklich verstehen
+**Wichtige Regel:** Entscheidungen, die andere betreffen, müssen dokumentiert sein. Das Medium ist zweitrangig, die
+Transparenz ist primär.
 
-Bevor wir Lösungen bauen, verstehen wir das fundamentale Problem: Die kognitive Last ist nicht nachhaltig, und mehr
-Tools machen es nur schlimmer. Wir beginnen bei der Wurzel – technologiegestützten Systemen, die sich an menschliche
-Arbeitsweisen anpassen.
+### Kommunikationswege (ohne Slack)
 
-#### 2. Bessere Systeme bauen, nicht mehr Tools
+**Wir nutzen KEIN Slack.** Stattdessen:
 
-- Wir verbinden strategische Beratung mit ausführbarer Technologie
-- Unsere Lösungen sind organisatorische Funktionen, keine isolierten Tools
-- Das Consulting ist nicht vom Produkt getrennt – es operationalisiert Mission, Ethik und Architektur
-- Wir bauen, kuratieren und orchestrieren Lösungen entlang echter Wertströme
+**Asynchron (bevorzugt):**
 
-#### 3. Augmentation vor Automation
+- **GitHub Discussions** – für Projektdiskussionen, Ideen, breitere Themen
+- **GitHub Issues** – für konkrete Probleme, Bugs, Features
+- **Email** (Google Workspace/Superhuman) – für wichtige Ankündigungen, externe Kommunikation
+- **Pull Request Comments** – für Code-bezogene Diskussionen
+- **Google Docs Comments** – für Dokumenten-bezogene Diskussionen
 
-- Automation ersetzt menschliche Arbeit. Augmentation verstärkt menschliche Kapazität.
-- Unsere Systeme eliminieren nicht deine Inbox – sie verwandeln sie in handlungsfähige Intelligenz
-- Sie ersetzen nicht dein Urteil – sie entfernen den Lärm, der es verdeckt
-- Sie managen nicht deine Zeit – sie geben sie dir zurück
+**Synchron (wenn nötig):**
 
-#### 4. Als Erste lernen, dann liefern
+- **Google Meet** – für Videocalls (aber: async first!)
+- **Ad-hoc Pairing** – nach Absprache
 
-- Time-to-Learn vor Time-to-Launch
-- Wir priorisieren schnelle, valide Lernzyklen über "perfekte" Roadmaps
-- Standardmäßig bauen wir iterativ in der Öffentlichkeit: Changelog, Demo-Umgebungen, offene Doks, öffentliche
-  Diskussionen
+**Priorität:**
 
-### Geheimer Masterplan
+```
+Pull Requests > GitHub Issues/Discussions > Email > Docs > Meetings
+```
 
-Geheim ist hier nur die Ironie. Der Plan ist öffentlich:
+**Warum keine Chat-Tool (Slack/Discord)?**
 
-- **Heute (Ist)**: Problem-Fokus auf kognitive Überlastung. Lösungs-Ansatz: Augmentation durch intelligente Systeme.
-  Beratung + Technologie als Einheit. Transparente Richtlinien.
-- **Nächste 12–24 Monate**: Mehr autonome Systeme, die wirklich für Menschen arbeiten. Breitere Library systemischer
-  Lösungen. Tiefere Integration in organisationale Workflows. Ausbau deutscher Sprach- und Kulturkompetenz.
-- **Langfristig**: WeMake als Referenz für organisationale Intelligenz im DACH-Raum. Vom Projekt zur Infrastruktur.
-  Standard für verantwortungsvolle Augmentation.
+- Chat ist synchron, unterbricht Deep Work
+- Wichtiges geht in Chat-Historie verloren
+- Entscheidungen sind schwer nachvollziehbar
+- Async-first fördert bessere Dokumentation
 
-</details><br/>
+**Wenn du schnell jemanden erreichen musst:** Email. Aber: "Schnell" ist relativ. Async bevorzugen.
+
+---
 
 <details>
 
@@ -173,7 +164,7 @@ Geheim ist hier nur die Ironie. Der Plan ist öffentlich:
 
 - Von Deep-Dives zur Kognitionswissenschaft bis zu Praxisguides
 - Kein "Hype as a Service" – wir erklären, wie Dinge funktionieren und wie nicht
-- Wir teilen: Benchmarks, Metriken, Trade-offs, Entscheidungen und ihre Kosten
+- Wir teilen: Benchmarks, Metriken, Trade-offs, Entscheidungen und ihre Kosten (öffentlich dokumentiert)
 - Problem-Definition vor Solution-Selling
 
 ### Wir investieren in unsere Website
@@ -443,12 +434,19 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 - **Pflegeaufwand**: Ist es nachhaltig wartbar?
 - **Dokumentierbarkeit**: Können andere es verstehen und nutzen?
 
-**Formate:**
+**Dokumentationsformate (wähle das passende):**
 
-- RFCs für signifikante Änderungen
-- Architekturentscheidungen (ADRs)
-- Kleine Experimente mit klaren Hypothesen
-- Öffentliche Changelogs
+- **RFCs** (Request for Comments) – als GitHub Issue, Discussion, oder Google Doc
+- **ADRs** (Architecture Decision Records) – im GitHub Wiki oder als Markdown-Docs
+- **Kleine Experimente** mit klaren Hypothesen – dokumentiert wo sinnvoll
+- **Öffentliche Changelogs** – auf Website, im GitHub, als Email-Update
+
+**Der Prozess:**
+
+1. **Vorschlag erstellen** (GitHub Issue, Discussion, oder Google Doc)
+2. **Diskussion** (Comments, Meetings wenn nötig)
+3. **Entscheidung dokumentieren** (ADR, Update im Wiki)
+4. **Öffentlich machen** (Changelog, je nach Relevanz)
 
 ### Wie wir neue Lösungen auswählen
 
@@ -489,6 +487,12 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 - Wir optimieren nicht auf Auslastung, sondern auf Durchsatz und Lerngeschwindigkeit
 - Problem verstehen → Hypothese bilden → Testen → Lernen → Iterieren
 - Schnelle Lernzyklen über perfekte Planung
+
+**Dokumentation:**
+
+- Learnings werden öffentlich gemacht (GitHub, Docs, Changelog)
+- Entscheidungen sind nachvollziehbar dokumentiert
+- Jeder kann sehen, warum etwas entschieden wurde
 
 ### Kleine Teams, End-to-End
 
@@ -578,6 +582,7 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 - Du willst fundamentale Probleme lösen, nicht Symptome bekämpfen
 - Du willst an der vordersten Linie von KI, Org-Design und kognitiver Wissenschaft arbeiten
 - Du willst remote, eigenverantwortlich, mit klarem Impact arbeiten
+- Du arbeitest gerne **async-first** und dokumentierst Entscheidungen öffentlich
 - Du willst lernen, dokumentieren, teilen – und andere mitziehen
 - Du willst Systeme bauen, die Menschen stärken
 
@@ -586,6 +591,7 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 - Wenn du lieber Features baust als Probleme löst
 - Wenn dir Tool-Komplexität lieber ist als systemische Einfachheit
 - Wenn dir Transparenz unangenehm ist
+- Wenn du lieber **synchron in Chat-Tools** arbeitest statt async dokumentiert
 - Wenn du lieber verwaltet wirst als zu führen
 - Wenn du Komfort über Verantwortung stellst
 
@@ -606,7 +612,6 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 </details><br/>
 
 <details>
-
 <summary>11. Was wir wertschätzen</summary>
 
 ## Was wir wertschätzen
@@ -615,13 +620,22 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 
 - **Kontext > Kontrolle**: Wir geben Problem-Verständnis, du findest den Weg
 - **Ownership bedeutet**: Problem verstehen, Systemkontext greifen, entscheiden, dokumentieren, iterieren
-- **Wir erwarten**: Du triffst Entscheidungen und erklärst sie öffentlich
+- **Toolwahl**: Du entscheidest, welche Tools du nutzt (GitHub, Docs, Email – was für dich funktioniert)
+- **Wir erwarten**: Du triffst Entscheidungen und dokumentierst sie öffentlich nachvollziehbar
 
 ### Mach es öffentlich
 
-- **Public by default**: PRs, Issues, Docs, Roadmaps, Problem-Definitionen
+- **Public by default**: Issues, Docs, Changelogs, Wiki, Entscheidungen
 - **Warum**: Öffentlichkeit ist Qualitätsfilter und Lehrmeister
-- **Ausnahme**: Was vertraulich sein muss (Security, Customer-Data)
+- **Ausnahme**: Was vertraulich sein muss (Security, Customer-Data, Secrets in **1Password**)
+- **Wie**: GitHub Issues/Discussions, Docs exports, Wiki, Website-Updates – wähle das passende Medium
+
+### Async-first, nicht Chat-first
+
+- **Warum kein Chat-Tool**: Unterbricht Deep Work, Wichtiges geht verloren, schlechte Dokumentation
+- **Async bevorzugen**: Durchdachte Kommunikation, bessere Dokumentation, respektiert Fokuszeiten
+- **Synchron nur wenn nötig**: Google Meet für Pairing, komplexe Diskussionen
+- **Dokumentiere immer**: Auch nach Meetings → Summary in Issue/Doc
 
 ### Systemdenken über Feature-Denken
 
@@ -641,7 +655,7 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 - **Konventionen sind bequem**: Fortschritt ist oft unbequem
 - **Wir suchen**: Wo andere nicht hinschauen
 - **Wir hinterfragen**: "Das haben wir immer so gemacht"
-- **Wir erklären**: Was wir anders machen und warum
+- **Wir erklären**: Was wir anders machen und warum (z.B. kein Chat-Tool)
 
 ### Grundsätzlich optimistisch
 
@@ -674,21 +688,30 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 
 ### Transparenz ist der Treibstoff für Autonomie
 
-- **Jede Entscheidung**: Hat PR, Issue oder ADR
-- **Problem-Definition**: Ist öffentlich
-- **Lösungsansätze**: Sind dokumentiert
-- **Metriken und Learnings**: Sind teilbar
-- **Protokolle, Postmortems**: Sind Standard
+**Wie wir dokumentieren (individuell wählbar):**
+
+- **Jede Entscheidung**: Hat Issue, Doc, oder Wiki-Eintrag
+- **Problem-Definition**: Ist öffentlich (GitHub, Website)
+- **Lösungsansätze**: Sind dokumentiert (PRs, RFCs, ADRs)
+- **Metriken und Learnings**: Sind teilbar (Docs, Changelog)
+- **Protokolle, Postmortems**: Sind Standard (Format ist flexibel)
 - **Sicherheit und Ethik**: Sind mitdokumentiert
+
+**Deine Tool-Wahl:**
+
+- Manche bevorzugen GitHub Issues → das ist ok
+- Manche bevorzugen Google Docs → das ist ok
+- Wichtig: Entscheidung ist öffentlich nachvollziehbar
 
 ### Es beginnt mit der Einstellung
 
 **Wen wir einstellen:**
 
-- Menschen, die Systeme verstehen wollen
+- Menschen, die **async-first** denken und dokumentieren
 - Die zwischen Problemen und Symptomen unterscheiden können
 - Die Verantwortung wollen und können
 - Die Augmentation über Automation stellen
+- Die **öffentliche Transparenz** leben
 
 **Wie wir prüfen:**
 
@@ -715,11 +738,19 @@ Weil Umsetzung zählt. Augmentation statt Automation erfordert:
 
 **Unsere Kultur:**
 
-- Async-first für Deep Work
-- Tiefe Fokuszeiten, wenige Meetings
-- Kommunikation ist schriftlich, prägnant, respektvoll
-- Slack für Koordination; Entscheidungen in PRs/Issues
+- **Async-first** für Deep Work
+- Tiefe Fokuszeiten, **keine ständigen Unterbrechungen durch Chat**
+- Kommunikation ist **schriftlich, durchdacht, dokumentiert**
+- Email/Discussions für Koordination; Entscheidungen in Issues/PRs/Docs
 - "Maker Schedule" wird respektiert
+
+**Konkrete Praktiken:**
+
+- **GitHub Discussions** statt Chat für asynchrone Konversationen
+- **Email** (Google Workspace/Superhuman) für wichtige Ankündigungen
+- **Issues/PRs** für konkrete Arbeit
+- **Docs** für kollaboratives Schreiben
+- **Meetings** nur wenn async nicht funktioniert
 
 </details><br/>
 
@@ -823,6 +854,7 @@ für organisationale Intelligenz.
 - **Verstehe**: Das fundamentale Problem der kognitiven Überlastung
 - **Starte klein**: Verbessere eine Doku, schreibe einen Test, dokumentiere ein Pattern
 - **Denke systemisch**: Wie fügt sich dein Beitrag ins größere Ganze?
+- **Wähle deine Tools**: Nutze was für dich funktioniert (GitHub, Docs, Email)
 
 ### Um Hilfe bitten, aber erst nach eigenem Versuch
 
@@ -836,7 +868,8 @@ für organisationale Intelligenz.
 **Stelle spezifische Fragen:**
 
 - Damit wir gezielt helfen können
-- Mit relevanten PRs, Issues, Docs verlinkt
+- In Issue, Discussion, Email, oder Doc – wo es passt
+- Mit relevanten Links versehen
 
 ### Keine Perfektion erwarten
 
@@ -854,6 +887,13 @@ für organisationale Intelligenz.
 - Dokumentation verbessern ist echter Wert
 - Schreibe die Doku, die du dir gewünscht hättest
 
+**Dokumentiere wo sinnvoll:**
+
+- PRs für Code/Docs-Änderungen
+- Issues für Probleme
+- Wiki für Architecture Decisions
+- Docs für kollaborative Texte
+
 ### In Systemen denken
 
 - **Frage immer**: Löst das das fundamentale Problem?
@@ -862,11 +902,21 @@ für organisationale Intelligenz.
 - **Suche**: Das dritte, vierte, fünfte Lösungsmuster
 - **Kombiniere**: Bestehendes neu für systemische Effekte
 
-### Keine Issues an Personen zuweisen
+### Dokumentation > Live-Chat
 
-- **Teamorientiert**: Issues beschreiben Probleme; Teams committen zu Lösungen
-- **Verantwortungen**: Sind klar, aber nicht personifiziert im Tracking
-- **Ownership**: Ist Rolle, nicht Name im Ticket
+**Warum async-first:**
+
+- Besseres Denken durch Schreiben
+- Nachvollziehbare Historie
+- Respektiert Deep Work
+- Inklusiver für verschiedene Zeitzonen/Arbeitsweisen
+
+**Statt schnellem Chat:**
+
+- Schreibe ein Issue mit Context
+- Erstelle ein Doc mit deinen Gedanken
+- Tagge relevante Personen
+- Gib Zeit für durchdachte Antworten
 
 ### Nicht einfach mergen ohne Review
 
@@ -874,36 +924,205 @@ für organisationale Intelligenz.
 - **Review bedeutet**: Verantwortung teilen, Qualität sichern
 - **Systemischer Check**: Passt es ins große Ganze?
 
-### PRs > Issues > Slack
+### Öffentlich dokumentieren > Privat chatten
 
 **Hierarchie der Entscheidungsdokumentation:**
 
-- **PRs**: Für Entscheidungen und änderbare Vorschläge
-- **Issues**: Für Ideen, Probleme, Diskussionen
-- **Slack**: Für Koordination und Menschliches
-- **Wichtiges**: Steht nicht nur in Slack
+- **PRs/Issues** für Code/Docs-Änderungen und Entscheidungen
+- **GitHub Discussions** für Ideen, Diskussionen, RFCs
+- **Google Docs** für kollaboratives Schreiben (wenn alle Zugang haben)
+- **Email** für Ankündigungen und wichtige Updates
+- **Meetings** nur, wenn async nicht funktioniert (dann: Summary dokumentieren!)
+
+**Wichtiges steht NICHT nur in:**
+
+- Privaten Chats
+- Nicht-dokumentierten Calls
+- Persönlichen Notizen
 
 ### Dinge standardmäßig öffentlich
 
 - **Default**: Public (Problem-Definitionen, Lösungsansätze, Learnings)
-- **Begründet**: Vertraulichkeit (Security, Customer-Data)
+- **Begründet**: Vertraulichkeit (Security, Customer-Data – nutze **1Password**)
 - **Für Zukunft schreiben**: Kurz, klar, mit Links
+- **Tool-agnostisch**: Hauptsache öffentlich dokumentiert
 
 ### Proaktiv bei Community-Fragen
 
 - **Antworte**: Hilfreich, freundlich, ehrlich
 - **Bei Unsicherheit**: Sag es und finde es heraus
 - **Teile Kontext**: Problem-Verständnis ist Mehrwert
+- **Dokumentiere Antworten**: In Issues, Docs, FAQ
 
 ### Und wenn du nicht hier arbeitest
 
 - Du darfst dieses Handbuch lesen, zitieren, kritisieren
-- Wenn etwas fehlt oder falsch ist: Eröffne ein Issue
+- Wenn etwas fehlt oder falsch ist: Eröffne ein Issue, schreib uns eine Email
 - Wir danken dir für Feedback zu Problem und Lösung
 
 </details><br/>
 
 ---
 
-**Hinweise zu internen Referenzen und Quellen:** Wo sinnvoll, verlinken wir auf weiterführende, interne Dokumente. Diese
-sind öffentlich einsehbar, solange sie keine vertraulichen Inhalte enthalten.
+## Technische Details zu unseren Tools
+
+### Google Workspace Business Plus
+
+**Wofür:** Email, Kalender, Dokumente, Drive, Meet **Wer nutzt es:** Jeder im Team hat Zugang **Warum:**
+Enterprise-grade, kollaborativ, integriert **Alternativen für individuelle Präferenz:** Superhuman für Email-Power-User
+
+### Superhuman Mail Business
+
+**Wofür:** Schnellere, produktivere Email-Nutzung **Wer nutzt es:** Freiwillig, für die, die Email-Produktivität
+maximieren wollen **Warum:** Keyboard-first, extrem schnell, Workflows **Alternative:** Standard Gmail aus Google
+Workspace
+
+### Cloudflare Enterprise
+
+**Wofür:** CDN, DDoS-Protection, Performance, Security, Zero-Trust-Access **Wer nutzt es:** Automatisch für alle
+Services **Warum:** Best-in-class Performance und Security **Team-Relevanz:** Ops/Infra
+
+### GitHub Enterprise
+
+**Wofür:** Code, Issues, Discussions, Wiki, Actions, Projects, Releases **Wer nutzt es:** Development, Docs, öffentliche
+Diskussionen **Warum:** Industry-standard, öffentlich, transparent, CI/CD integriert **Alternative für
+Nicht-Technical:** Nutze Issues als Layperson, oder Google Docs
+
+### 1Password Business
+
+**Wofür:** Passwörter, API-Keys, Secrets, Certificates **Wer nutzt es:** Jeder im Team hat Zugang **Warum:** Security,
+Shared Vaults, Compliance **Team-Relevanz:** Alle
+
+### Framer Pro
+
+**Wofür:** Website, Landing Pages, Prototyping, Design **Wer nutzt es:** Design, Marketing, Product **Warum:** Modern,
+schnell, kollaborativ, Engineering-friendly **Team-Relevanz:** Design, Marketing
+
+---
+
+## Workflow-Beispiele
+
+### Neue Feature-Idee
+
+**Option A (GitHub-User):**
+
+1. Erstelle GitHub Issue
+2. Diskussion in Comments
+3. Entscheidung dokumentieren
+4. PR erstellen
+5. Review-Prozess
+6. Merge und Changelog
+
+**Option B (Nicht-GitHub-User):**
+
+1. Erstelle Google Doc mit RFC
+2. Teile Link per Email/in relevanten Channels
+3. Kommentare sammeln
+4. Entscheidung dokumentieren
+5. Technical Person erstellt Issue/PR
+6. Link zu Doc im Issue
+7. Merge und Changelog
+
+**Wichtig:** Beide Wege sind valide. Hauptsache transparent dokumentiert.
+
+### Problem-Reporting
+
+**Option A (Technical):**
+
+- GitHub Issue mit Repro-Steps
+- Labels setzen
+- Diskussion in Comments
+
+**Option B (Non-Technical):**
+
+- Email an Team mit Beschreibung
+- Technical Person erstellt Issue
+- Link zur Original-Email im Issue
+
+### Entscheidungs-Dokumentation
+
+**Für alle lesbar:**
+
+1. **GitHub Wiki** – für ADRs, dauerhafte Entscheidungen
+2. **Changelog** (auf Website) – für User-relevante Änderungen
+3. **Google Docs** – für kollaborative RFCs (dann Export zu Wiki)
+4. **Email** – für wichtige Updates ans Team
+
+**Sensible Infos:**
+
+- **1Password** für Secrets, Keys, Credentials
+- Private Repos in GitHub (wenn nötig)
+
+---
+
+## Onboarding-Checkliste
+
+### Tag 1
+
+- [ ] **Google Workspace** Account erhalten
+- [ ] **1Password** Zugang bekommen (via Admin)
+- [ ] **GitHub** Account hinzugefügt (zu WeMake Org)
+- [ ] Dieses Handbuch + Manifesto gelesen
+- [ ] **Framer** Zugang (bei Bedarf)
+- [ ] **Superhuman** Trial starten (optional)
+
+### Woche 1
+
+- [ ] Erstes Issue kommentiert oder erstellt
+- [ ] Erstes Doc gelesen und kommentiert
+- [ ] Team-Members kennengelernt (async!)
+- [ ] Erste kleine Contribution (Docs, Test, etc.)
+- [ ] Persönliche Tool-Präferenzen definiert
+
+### Monat 1
+
+- [ ] Erstes größeres Problem verstanden
+- [ ] Erste dokumentierte Entscheidung getroffen
+- [ ] Ersten PR/Change eingereicht (in deinem Format)
+- [ ] Feedback-Loop etabliert
+- [ ] Workflow gefunden, der für dich funktioniert
+
+---
+
+## FAQ für neue Team-Members
+
+**Q: Muss ich GitHub nutzen?** A: Nein. Aber: Entscheidungen müssen öffentlich dokumentiert sein. GitHub ist eine
+Option, Google Docs eine andere. Wähle, was für dich passt. Technical Work läuft primär über GitHub.
+
+**Q: Wie kommuniziere ich schnell?** A: Email (Google Workspace/Superhuman). Aber: "Schnell" überdenken. Async
+bevorzugen.
+
+**Q: Wo finde ich Entscheidungen?** A: GitHub Wiki, Issues, Discussions, Docs (je nach Kontext). Wir taggen wichtige
+Entscheidungen.
+
+**Q: Kein Chat-Tool? Wirklich?** A: Ja, wirklich. Async-first fördert bessere Kommunikation, Dokumentation und Deep
+Work.
+
+**Q: Was wenn ich kein Technical Background habe?** A: Google Docs, Email, kommentiere Issues als Layperson. Technical
+Members helfen beim Übersetzen.
+
+**Q: Welche Tools MUSS ich nutzen?** A: **1Password** für Secrets/Credentials. Sonst: Du entscheidest. Google Workspace
+ist Standard, Superhuman optional.
+
+**Q: Wo lerne ich die Tools?** A: Docs in GitHub Wiki, interne Guides, Learning by Doing. Frag im Team (async
+documentation preferred).
+
+---
+
+**Hinweis zu Secrets & Security:**
+
+- Nutze **1Password** für alle Credentials, API-Keys, Secrets
+- Shared Vaults für Team-Ressourcen
+- Persönliche Vaults für individuelles
+- **NIE** Secrets in Code, Issues, Docs – immer über 1Password teilen
+
+**Cloudflare für Alle:**
+
+- Zero-Trust-Access automatisch konfiguriert
+- Nutze für sichere Service-Zugriffe
+- Ops-Team hilft bei Setup
+
+---
+
+Dieses Handbuch lebt. Ergänze, was fehlt. Korrigiere, was falsch ist. **Mach es öffentlich** (Issue, PR, Doc – deine
+Wahl).
