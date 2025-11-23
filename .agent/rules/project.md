@@ -1,7 +1,3 @@
----
-alwaysApply: true
----
-
 # Repository Richtlinien
 
 1.  **LLMs verlagern die Arbeitslast, sie eliminieren sie nicht.** Die Annahme, dass Large Language Models Aufgaben
